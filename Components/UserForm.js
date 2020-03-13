@@ -1,7 +1,7 @@
 import React from 'react';
 const { Component } = React;
 
-class UserForm extends Component {
+export class UserForm extends Component {
   constructor() {
     super();
     this.state = {
@@ -26,4 +26,4 @@ class UserForm extends Component {
   }
 }
 
-export default UserForm;
+//export default UserForm;

@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import axios from 'axios';
 
 import UserThingForm from '../Components/UserThingForm';
-import UserForm from '../Components/UserForm';
+import { UserForm } from '../Components/UserForm';
 import ThingForm from '../Components/ThingForm';
 import Things from '../Components/Things';
-import Users from '../Components/Users'
+import Users from '../Components/Users';
 
 const { Component } = React;
 
